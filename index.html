@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NodeProp - Especializada em Soluções Digitais</title>
+  <meta name="description" content="Agência especializda em Marketing Digital, Criação de Sites e Aplicativos Mobile.">
+  <meta name="keywords" content="Agência digital, Marketing, Sites">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Daniel Feitosa">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="./img/logo-sem-fundo.png">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="cabecalho">
+    <a href="index.html">
+      <h1 class="logo"> NodeProp - Especializada em Soluções Digitais </h1>
+    </a> 
+    <button class="btn-menu">
+      <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </button>
+    <nav class="menu">
+      <a class="btn-close"> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+        width="32" height="32"
+        viewBox="0 0 226 226"
+        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,226v-226h226v226z" fill="none"></path><g fill="#ffffff"><path d="M61.57617,51.42383l-10.15234,10.15234l51.42383,51.42383l-51.42383,51.42383l10.15234,10.15234l51.42383,-51.42383l51.42383,51.42383l10.15234,-10.15234l-51.42383,-51.42383l51.42383,-51.42383l-10.15234,-10.15234l-51.42383,51.42383z"></path></g></g></svg> </a>
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Clientes</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Quem somos</a></li>
+          <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="banner">
+    <div class="title">
+      <h2> OUSE INOVAR!</h2>
+      <h3> Criamos experiências e estabelecemos ações estratégicas que conectam marcas e consumidores.</h3>
+    </div>
+    <div class="buttons">
+      <button class="btn-cadastrar"> Cadastrar <img id="img1" src="./img/seta-direita.png" alt="cadastro"> </button>
+      <button class="btn-sobre"> Sobre <img id="img2" src="./img/botao-de-informacao.png" alt="sobre"> </button>
+    </div>
+  </div>
+  <main class="servicos"> 
+    <article class="servico">
+      <a href="#">
+        <img src="./img/criacoes.jpg" alt="Criações de Serviços">
+      </a>
+        <div class="inner">
+          <a href="#"> Campanhas publicitárias </a>
+          <h4> Impressos, VTs e Jingles </h4>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, labore architecto deserunt eum atque veritatis assumenda suscipit exercitationem sed voluptate eligendi? Blanditiis error eligendi dicta iste nam illum laborum rerum! </p>
+        </div>
+    </article>
+    <article class="servico">
+      <a href="#">
+        <img src="./img/md.jpg" alt="Marketing Digital">
+      </a>
+        <div class="inner">
+          <a href="#"> Marketing Digital </a>
+          <h4> Administração de Redes Sociais </h4>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, labore architecto deserunt eum atque veritatis assumenda suscipit exercitationem sed voluptate eligendi? Blanditiis error eligendi dicta iste nam illum laborum rerum! </p>
+        </div>
+    </article>
+    <article class="servico">
+      <a href="#">
+        <img src="./img/cs.jpg" alt="Criação de Sites">
+      </a>
+        <div class="inner">
+          <a href="#"> Criação de Sites </a>
+          <h4> Sites Administravéis </h4>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, labore architecto deserunt eum atque veritatis assumenda suscipit exercitationem sed voluptate eligendi? Blanditiis error eligendi dicta iste nam illum laborum rerum! </p>
+        </div>
+    </article>
+  </main>
+
+  <script>
+    $(".btn-menu").click(function(){
+      $(".menu").show();
+    });
+
+    $(".btn-close").click(function(){
+      $(".menu").hide();
+    });
+  </script>
+
+</body>
+</html>
