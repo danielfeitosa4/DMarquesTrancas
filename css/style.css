@@ -224,3 +224,26 @@ img {
 .newsletter form {
   margin-top: 2%;
 }
+
+.newsletter input {
+  background-color: #774936;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+::-webkit-input-placeholder{
+  color: rgb(255, 255, 255);
+}
+
+.newsletter button {
+  width: 100%;
+  background-color: #fff;
+  color: #774936;
+  padding: 5%;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2%;
+}
