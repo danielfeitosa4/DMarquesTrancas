@@ -14,7 +14,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+  <!-- ADICIONANDO UMA LOGO NA JANELA DE NAVEGAÇÃO DO SITE-->
   <link rel="icon" href="./img/logo-sem-fundo.png">
+  <!-- IMPORTANDO SCRIPT PARA USAR O JQUERY-->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -22,6 +24,7 @@
     <a href="index.html">
       <h1 class="logo"> DMarques Tranças </h1>
     </a> 
+    <!-- MENU HAMBÚRGUER-->
     <button class="btn-menu">
       <div class="container" onclick="myFunction(this)">
         <div class="bar1"></div>
@@ -30,10 +33,12 @@
       </div>
     </button>
     <nav class="menu">
+      <!-- ADICIONANDO UM SVG NA TAG "A"-->
       <a class="btn-close"> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
         width="32" height="32"
         viewBox="0 0 226 226"
         style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,226v-226h226v226z" fill="none"></path><g fill="#ffffff"><path d="M61.57617,51.42383l-10.15234,10.15234l51.42383,51.42383l-51.42383,51.42383l10.15234,10.15234l51.42383,-51.42383l51.42383,51.42383l10.15234,-10.15234l-51.42383,-51.42383l51.42383,-51.42383l-10.15234,-10.15234l-51.42383,51.42383z"></path></g></g></svg> </a>
+      <!-- CRIANDO CONTEÚDOS DO MENU-->
       <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Clientes</a></li>
@@ -55,6 +60,7 @@
       <button class="btn-sobre"> Sobre <img id="img2" src="./img/botao-de-informacao.png" alt="sobre"> </button>
     </div>
   </div>
+  <!-- LISTA DE SERVIÇOS OFERECIDOS NO SITE-->
   <main class="servicos"> 
     <article class="servico">
       <a href="#">
@@ -88,6 +94,7 @@
     </article>
   </main>
 
+  <!-- JQUERY -->
   <script>
     $(".btn-menu").click(function(){
       $(".menu").show();
