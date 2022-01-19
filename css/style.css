@@ -130,7 +130,7 @@ img {
   float: left;
   text-align: center;
   padding: 3% 4%;
-  background: url(../img/logo.jpg) no-repeat fixed;
+  background: linear-gradient(to right,#C38E70, #774936);
 }
 
 .title {
