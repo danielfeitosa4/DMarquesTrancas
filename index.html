@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NodeProp - Especializada em Soluções Digitais</title>
+  <title> DMarques Tranças </title>
   <meta name="description" content="Agência especializda em Marketing Digital, Criação de Sites e Aplicativos Mobile.">
   <meta name="keywords" content="Agência digital, Marketing, Sites">
   <meta name="robots" content="index, follow">
@@ -14,14 +14,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <!-- ADICIONANDO UMA LOGO NA JANELA DE NAVEGAÇÃO DO SITE-->
   <link rel="icon" href="./img/logo-sem-fundo.png">
+  <!-- IMPORTANDO SCRIPT PARA USAR O JQUERY-->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
   <header class="cabecalho">
     <a href="index.html">
-      <h1 class="logo"> NodeProp - Especializada em Soluções Digitais </h1>
+      <h1 class="logo"> DMarques Tranças </h1>
     </a> 
+    <!-- MENU HAMBÚRGUER-->
     <button class="btn-menu">
       <div class="container" onclick="myFunction(this)">
         <div class="bar1"></div>
@@ -30,10 +34,12 @@
       </div>
     </button>
     <nav class="menu">
+      <!-- ADICIONANDO UM SVG NA TAG "A"-->
       <a class="btn-close"> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
         width="32" height="32"
         viewBox="0 0 226 226"
         style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,226v-226h226v226z" fill="none"></path><g fill="#ffffff"><path d="M61.57617,51.42383l-10.15234,10.15234l51.42383,51.42383l-51.42383,51.42383l10.15234,10.15234l51.42383,-51.42383l51.42383,51.42383l10.15234,-10.15234l-51.42383,-51.42383l51.42383,-51.42383l-10.15234,-10.15234l-51.42383,51.42383z"></path></g></g></svg> </a>
+      <!-- CRIANDO CONTEÚDOS DO MENU-->
       <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Clientes</a></li>
@@ -55,39 +61,66 @@
       <button class="btn-sobre"> Sobre <img id="img2" src="./img/botao-de-informacao.png" alt="sobre"> </button>
     </div>
   </div>
+  <!-- LISTA DE SERVIÇOS OFERECIDOS NO SITE-->
   <main class="servicos"> 
     <article class="servico">
       <a href="#">
-        <img src="./img/criacoes.jpg" alt="Criações de Serviços">
+        <img src="./img/fulani-braids.jpg" alt="Fulani Braids">
       </a>
         <div class="inner">
-          <a href="#"> Campanhas publicitárias </a>
-          <h4> Impressos, VTs e Jingles </h4>
+          <a href="#"> Fulani Braids </a>
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, labore architecto deserunt eum atque veritatis assumenda suscipit exercitationem sed voluptate eligendi? Blanditiis error eligendi dicta iste nam illum laborum rerum! </p>
         </div>
     </article>
     <article class="servico">
       <a href="#">
-        <img src="./img/md.jpg" alt="Marketing Digital">
+        <img src="./img/nago.jpg" alt="Nagô">
       </a>
         <div class="inner">
-          <a href="#"> Marketing Digital </a>
-          <h4> Administração de Redes Sociais </h4>
+          <a href="#"> Nagô </a>
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, labore architecto deserunt eum atque veritatis assumenda suscipit exercitationem sed voluptate eligendi? Blanditiis error eligendi dicta iste nam illum laborum rerum! </p>
         </div>
     </article>
     <article class="servico">
       <a href="#">
-        <img src="./img/cs.jpg" alt="Criação de Sites">
+        <img src="./img/ghana-braids.jpg" alt="Ghana Braids">
       </a>
         <div class="inner">
-          <a href="#"> Criação de Sites </a>
-          <h4> Sites Administravéis </h4>
+          <a href="#"> Ghana Braids </a>
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, labore architecto deserunt eum atque veritatis assumenda suscipit exercitationem sed voluptate eligendi? Blanditiis error eligendi dicta iste nam illum laborum rerum! </p>
         </div>
     </article>
   </main>
 
+  <!-- NEWSLETTER-->
+  <section class="newsletter">
+    <h2> Inscreva-se agora! </h2>
+    <h3> Receba novidades, dicas e muito mais. </h3>
+    <form>
+      <input type="email" name="email" placeholder="Seu email">
+      <button> Cadastrar </button>
+    </form>
+  </section>
+  
+  <!-- RODAPÉ -->
+  <footer class="rodape">
+    <div class="social-icons">
+      <a href="#">
+        <img src="./img/facebook-24px.png" alt="">
+      </a>
+      <a href="https://instagram.com/dmarques_trancas?utm_medium=copy_link">
+        <img src="./img/instagram-24px.png" alt="">
+      </a>
+      <a href="https://api.whatsapp.com/message/SZYJZOPHYDGYP1">
+        <img src="./img/whatsapp-24px.png" alt="">
+      </a>
+    </div>
+    <p class="copytht">
+      Copyright © Daniel Feitosa 2022. Todos os direitos reservados.
+    </p>
+  </footer>
+
+  <!-- JQUERY -->
   <script>
     $(".btn-menu").click(function(){
       $(".menu").show();
